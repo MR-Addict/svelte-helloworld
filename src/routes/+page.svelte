@@ -33,7 +33,7 @@
     initial-value: 0deg;
   }
   section {
-    background: linear-gradient(var(--angle), #ff0033, #027494);
+    background: linear-gradient(var(--angle), #ff0033, #00b1e2);
     animation: flow 10s linear infinite;
   }
   @keyframes flow {

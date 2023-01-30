@@ -9,7 +9,15 @@
 | dark text  | gray-500 |
 | theme      | cyan-600 |
 
-## 2. Deploy
+## 2. Memorandum
+
+Write a memo for the next time I create a new project.
+
+- Install tailwindcss
+- Add $component and $data aliases
+- Add description meta, robots.txt, and favicon.ico
+
+## 3. Deploy
 
 Clone repository:
 
