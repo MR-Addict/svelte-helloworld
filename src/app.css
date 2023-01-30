@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.frame {
+  @apply py-5 px-5 md:px-48;
+}
+
+.background {
+  @apply bg-gradient-to-br from-black to-slate-900;
+}
+
+.main-container {
+  font-family: monospace;
+  @apply background flex flex-col justify-between min-h-screen text-gray-300;
+}
