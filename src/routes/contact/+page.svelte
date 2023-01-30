@@ -7,7 +7,7 @@
   <title>Contact • Svelte</title>
 </svelte:head>
 
-<main class="frame flex-1 flex flex-col items-center relative">
+<main class="frame flex-1 flex justify-center">
   {#if form && form.message}
     <p class="absolute top-5 text-cyan-600">{form.message}</p>
   {/if}
@@ -30,12 +30,10 @@
         <input required type="email" id="email" name="email" placeholder="Email" />
       </section>
       <section>
-        <label for="feedback">Feedback:</label>
-        <textarea required id="feedback" name="feedback" placeholder="Feedback" />
+        <label for="message">Message:</label>
+        <textarea required id="message" name="message" placeholder="Message" />
       </section>
-      <button
-        type="submit"
-        class="background duration-300 outline outline-1 outline-cyan-500 mt-3 py-3 px-5 rounded-md hover:shadow-[0_0_20px_#0891b2]"
+      <button type="submit" class="background duration-300 outline outline-1 outline-cyan-500 mt-3 py-3 px-5 rounded-md"
         >Submit</button
       >
     </form>
@@ -57,5 +55,8 @@
   }
   form:invalid button[type="submit"] {
     cursor: not-allowed;
+  }
+  form:valid button[type="submit"]:hover {
+    box-shadow: 0 0 20px #0891b2;
   }
 </style>
