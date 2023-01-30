@@ -7,10 +7,10 @@
 }
 
 .background {
-  @apply bg-gradient-to-br from-black to-slate-900;
+  @apply bg-gradient-to-t from-black to-slate-900;
 }
 
-.main-container {
+.container {
   font-family: monospace;
-  @apply background flex flex-col justify-between min-h-screen text-gray-300;
+  @apply background flex flex-col justify-between min-h-screen text-base text-gray-300;
 }
