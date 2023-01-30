@@ -7,7 +7,7 @@
 
 <nav class="frame flex felx-row items-center justify-between">
   <a href="/" class="font-bold text-xl">SvelteKit</a>
-  <section aria-label="navbar links" class="flex flex-row items-center gap-3">
+  <section aria-label="navbar links" class="flex flex-row items-center gap-3 md:gap-5">
     <ul class="flex flex-row gap-3 text-lg">
       {#each links as link}
         <li><a href={link.href} class:active={$page.url.pathname === link.href}>{link.name}</a></li>
@@ -19,9 +19,9 @@
 
 <style lang="css">
   li a.active {
-    @apply text-purple-600;
+    @apply text-cyan-600;
   }
   li a:hover {
-    @apply text-purple-600;
+    @apply text-cyan-600;
   }
 </style>

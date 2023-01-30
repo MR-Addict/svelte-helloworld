@@ -9,11 +9,11 @@
 
 <main class="frame flex-1 flex flex-col items-center relative">
   {#if form && form.message}
-    <p class="absolute top-5 text-purple-600">{form.message}</p>
+    <p class="absolute top-5 text-cyan-600">{form.message}</p>
   {/if}
   <section
     aria-label="contact form"
-    class="w-full background shadow-md shadow-gray-500 max-w-md flex flex-col gap-3 outline outline-1 outline-gray-500 p-5 rounded-md h-fit mt-10"
+    class="w-full background shadow-md shadow-cyan-500 max-w-md flex flex-col gap-3 outline outline-1 outline-cyan-500 p-5 rounded-md h-fit mt-10"
   >
     <h1 class="text-xl text-center text-gray-300 font-bold">Contact Me</h1>
     <form class="flex flex-col gap-3" method="POST">
@@ -35,7 +35,7 @@
       </section>
       <button
         type="submit"
-        class="background duration-300 outline outline-1 outline-gray-500 mt-3 py-3 px-5 rounded-md hover:shadow-[0_0_20px_rgba(88,28,135)]"
+        class="background duration-300 outline outline-1 outline-cyan-500 mt-3 py-3 px-5 rounded-md hover:shadow-[0_0_20px_#0891b2]"
         >Submit</button
       >
     </form>

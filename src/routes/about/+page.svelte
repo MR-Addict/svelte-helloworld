@@ -5,10 +5,10 @@
 <main class="frame flex-1 flex flex-col items-center">
   <section
     aria-label="about me"
-    class="w-full background shadow-md shadow-gray-500 max-w-md outline outline-1 outline-gray-500 p-5 rounded-md h-fit mt-10"
+    class="w-full background shadow-md shadow-cyan-600 max-w-md outline outline-1 outline-cyan-600 p-5 rounded-md h-fit mt-10"
   >
     <h1 class="text-xl font-bold text-center">About Me</h1>
-    <hr class="border-t border-t-gray-500 my-5" />
+    <hr class="border-t border-t-cyan-600 my-5" />
     <article aria-label="about me" class="flex flex-col gap-3 text-lg">
       <p>Hello my friend.</p>
       <p>
@@ -19,7 +19,7 @@
         Below is my own website based on Next.js, another awesome frontend framework. Welcome to have a visit and leave
         your comment.
       </p>
-      <a href="https://mraddict.one" class="text-purple-600 hover:underline">https://mraddict.one</a>
+      <a href="https://mraddict.one" class="text-cyan-600 hover:underline">https://mraddict.one</a>
     </article>
   </section>
 </main>
