@@ -6,7 +6,7 @@
 </script>
 
 <nav class="frame flex felx-row items-center justify-between">
-  <header class="font-bold text-xl">SvelteKit</header>
+  <a href="/" class="font-bold text-xl text-purple-600">SvelteKit</a>
   <section aria-label="navbar links" class="flex flex-row items-center gap-3">
     <ul class="flex flex-row gap-3 text-lg">
       {#each links as link}

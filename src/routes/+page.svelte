@@ -13,7 +13,7 @@
     class="flex flex-col items-center gap-7 px-10 py-20 rounded-md shadow-md shadow-gray-500 background outline outline-1 outline-gray-500"
   >
     <img src={logo} alt="svelte logo" class="w-16 mx-auto" />
-    <div class="w-full">
+    <div class="w-full text-center">
       <h1 class="text-3xl font-bold">SVELTEKIT IS AWESOME</h1>
       <p>I Love to use sveltekit.</p>
     </div>
