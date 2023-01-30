@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>About - Starter</title>
+  <title>About - Svelte</title>
 </svelte:head>
 
 <main class="frame flex-1 flex flex-col items-center">
@@ -23,7 +23,7 @@
         Below is my own website based on Next.js, another awesome frontend framework. Welcome to have a visit and leave
         your comment.
       </p>
-      <a href="https://mraddict.one" class="text-blue-600 hover:underline">https://mraddict.one</a>
+      <a href="https://mraddict.one" class="text-purple-600 hover:underline">https://mraddict.one</a>
     </article>
   </section>
 </main>

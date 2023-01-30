@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Contact - Starter</title>
+  <title>Contact - Svelte</title>
 </svelte:head>
 
 <main class="frame flex-1 flex flex-col items-center relative">
@@ -33,7 +33,11 @@
         <label for="feedback">Feedback:</label>
         <textarea required id="feedback" name="feedback" placeholder="Feedback" />
       </section>
-      <button type="submit" class="bg-purple-600 text-white mt-2 p-2 rounded-sm">Submit</button>
+      <button
+        type="submit"
+        class="background duration-300 outline outline-1 outline-gray-500 mt-3 py-3 px-5 rounded-md hover:shadow-[0_0_20px_rgba(88,28,135)]"
+        >Submit</button
+      >
     </form>
   </section>
 </main>
@@ -43,7 +47,7 @@
     @apply flex flex-col gap-1;
   }
   :is(input, textarea) {
-    @apply p-2 bg-gray-300 rounded-sm text-black outline outline-1;
+    @apply p-2 bg-white rounded-sm text-black outline outline-1;
   }
   :is(input, textarea):valid {
     @apply outline-green-600;

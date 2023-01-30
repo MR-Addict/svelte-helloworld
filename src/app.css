@@ -7,7 +7,7 @@
 }
 
 .background {
-  @apply bg-gradient-to-t from-black to-slate-900;
+  @apply bg-gradient-to-tr from-black to-slate-900;
 }
 
 .container {

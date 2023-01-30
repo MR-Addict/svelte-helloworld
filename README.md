@@ -2,11 +2,12 @@
 
 ## 1. Tailwindcss Rules
 
-| Key        | Value    |
-| :--------- | :------- |
-| background | black    |
-| light text | gray-300 |
-| dark text  | gray-500 |
+| Key        | Value      |
+| :--------- | :--------- |
+| background | black      |
+| light text | gray-300   |
+| dark text  | gray-500   |
+| theme      | purple-600 |
 
 ## 2. Deploy
 
