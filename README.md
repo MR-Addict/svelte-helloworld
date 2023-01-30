@@ -1,6 +1,6 @@
 # Svelte Hello World
 
-## 1. Tailwindcss Rules
+## 1. Tailwindcss
 
 | Key        | Value    |
 | :--------- | :------- |
@@ -9,35 +9,24 @@
 | dark text  | gray-500 |
 | theme      | cyan-600 |
 
-## 2. Memorandum
+## 2. Memo
 
-Write a memo for the next time I create a new project.
+Memo for the next time I create a new project.
 
 - Install tailwindcss
-- Add $component and $data aliases
-- Add description meta, robots.txt, and favicon.ico
+- Add `$component` and `$data` aliases
+- Add `description` meta, `robots.txt`, and `favicon.ico`
+- To print **•** symbol, you need to hold **Alt**, then pres 0, 1, 4, 9 sequently.
 
 ## 3. Deploy
 
-Clone repository:
-
-```bash
-git clone https://github.com/MR-Addict/svelte-helloworld.git
-```
-
-Install packages:
-
-```bash
-npm install
-```
-
-Build page:
+Build project:
 
 ```bash
 npm run build
 ```
 
-Preview page
+Preview project:
 
 ```bash
 npm run preview

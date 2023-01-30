@@ -13,7 +13,9 @@
         <li><a href={link.href} class:active={$page.url.pathname === link.href}>{link.name}</a></li>
       {/each}
     </ul>
-    <a aria-label="github link" href="https://github.com"><img src={github} alt="github logo" /></a>
+    <a aria-label="github link" href="https://github.com/MR-Addict/svelte-helloworld"
+      ><img src={github} alt="github logo" /></a
+    >
   </section>
 </nav>
 
