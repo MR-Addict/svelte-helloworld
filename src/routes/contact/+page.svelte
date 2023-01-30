@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Contact - Svelte</title>
+  <title>Contact • Svelte</title>
 </svelte:head>
 
 <main class="frame flex-1 flex flex-col items-center relative">

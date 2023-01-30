@@ -1,21 +1,20 @@
 <script>
   import logo from "$data/images/logo.png";
   import share from "$data/images/share.svg";
-  import welcome from "$data/images/welcome.png";
 </script>
 
 <svelte:head>
-  <title>Home - Svelte</title>
+  <title>Home • Svelte</title>
 </svelte:head>
 
-<main class="frame flex-1 flex flex-row items-center justify-around">
+<main class="frame flex-1 flex justify-center">
   <section
-    class="flex flex-col items-center gap-7 px-10 py-20 rounded-md shadow-md shadow-gray-500 background outline outline-1 outline-gray-500"
+    class="flex flex-col items-center gap-7 px-10 py-20 rounded-md shadow-md shadow-gray-500 background outline outline-1 outline-gray-500 h-fit mt-10"
   >
     <img src={logo} alt="svelte logo" class="w-16 mx-auto" />
-    <div class="w-full text-center">
-      <h1 class="text-3xl font-bold">SVELTEKIT IS AWESOME</h1>
-      <p>I Love to use sveltekit.</p>
+    <div class="text-center flex flex-col gap-2">
+      <h1 class="text-3xl font-bold">SVELTE IS AWESOME</h1>
+      <p>Everyone should learn svelte.</p>
     </div>
     <a
       href="https://kit.svelte.dev/"
@@ -24,8 +23,5 @@
       <p>Get Started</p>
       <img src={share} alt="share icon" />
     </a>
-  </section>
-  <section class="hidden md:block">
-    <img src={welcome} alt="sveltekit machine" class="w-full max-w-lg" />
   </section>
 </main>

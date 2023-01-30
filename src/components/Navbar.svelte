@@ -6,7 +6,7 @@
 </script>
 
 <nav class="frame flex felx-row items-center justify-between">
-  <a href="/" class="font-bold text-xl text-purple-600">SvelteKit</a>
+  <a href="/" class="font-bold text-xl">SvelteKit</a>
   <section aria-label="navbar links" class="flex flex-row items-center gap-3">
     <ul class="flex flex-row gap-3 text-lg">
       {#each links as link}
@@ -18,10 +18,10 @@
 </nav>
 
 <style lang="css">
-  a.active {
+  li a.active {
     @apply text-purple-600;
   }
-  a:hover {
+  li a:hover {
     @apply text-purple-600;
   }
 </style>
