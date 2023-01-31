@@ -5,10 +5,10 @@
 <main class="frame flex-1 flex justify-center">
   <section
     aria-label="about me"
-    class="w-full background shadow-md shadow-cyan-600 max-w-md outline outline-1 outline-cyan-600 p-5 rounded-md h-fit mt-10"
+    class="w-full background shadow-md shadow-cyan-600 max-w-md outline outline-1 outline-cyan-600 p-5 rounded-md h-fit md:mt-10"
   >
     <h1 class="text-xl font-bold text-center">About Me</h1>
-    <hr class="border-t border-t-cyan-600 my-5" />
+    <hr class="border-t border-t-cyan-600 my-3 md:my-5" />
     <article aria-label="about me" class="flex flex-col gap-3 text-lg">
       <p>Hello my friend.</p>
       <p>

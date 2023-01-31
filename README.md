@@ -14,7 +14,9 @@
 Memo for the next time I create a new project.
 
 - Install tailwindcss
+- Use `100dvh` instead of `100vh`
 - Add `$component` and `$data` aliases
+- Add `--host` to `package.json` script for global serve
 - Add `description` meta, `robots.txt`, and `favicon.ico`
 - To print **•** symbol, you need to hold **Alt**, then pres 0, 1, 4, 9 sequently.
 

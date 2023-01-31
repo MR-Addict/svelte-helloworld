@@ -17,7 +17,7 @@
       </div>
       <a
         href="https://kit.svelte.dev/"
-        class="flex flex-row gap-2 items-center background duration-300 outline outline-1 outline-cyan-600 hover:shadow-[0_0_20px_#0891b2] text-white text-lg py-3 px-5 rounded-3xl"
+        class="flex flex-row gap-2 items-center background duration-300 outline outline-1 outline-cyan-600 md:hover:shadow-[0_0_20px_#0891b2] text-white text-lg py-3 px-5 rounded-3xl"
       >
         <p>Get Started</p>
         <img src={share} alt="share icon" />
@@ -26,7 +26,14 @@
   </section>
 </main>
 
-<style>
+<style lang="css">
+  /* for get started link */
+  @media only screen and (max-width: 600px) {
+    a {
+      box-shadow: 0 0 20px #0891b2;
+    }
+  }
+  /* for animated gradient border */
   @property --angle {
     syntax: "<angle>";
     inherits: false;
@@ -34,7 +41,7 @@
   }
   section {
     background: linear-gradient(var(--angle), #ff0033, #00b1e2);
-    animation: flow 10s linear infinite;
+    animation: flow 5s linear infinite;
   }
   @keyframes flow {
     from {

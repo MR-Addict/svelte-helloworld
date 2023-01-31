@@ -12,5 +12,6 @@
 
 .container {
   font-family: monospace;
-  @apply background flex flex-col justify-between min-h-screen text-base text-gray-300;
+  min-height: 100dvh;
+  @apply background flex flex-col justify-between text-base text-gray-300;
 }

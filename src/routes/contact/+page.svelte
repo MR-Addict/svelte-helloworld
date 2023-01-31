@@ -7,16 +7,16 @@
   <title>Contact • Svelte</title>
 </svelte:head>
 
-<main class="frame flex-1 flex justify-center">
+<main class="frame flex-1 flex justify-center relative">
   {#if form && form.message}
     <p class="absolute top-5 text-cyan-600">{form.message}</p>
   {/if}
   <section
     aria-label="contact form"
-    class="w-full background shadow-md shadow-cyan-500 max-w-md flex flex-col gap-3 outline outline-1 outline-cyan-500 p-5 rounded-md h-fit mt-10"
+    class="w-full background shadow-md shadow-cyan-500 max-w-md flex flex-col gap-3 outline outline-1 outline-cyan-500 p-5 rounded-md h-fit md:mt-10"
   >
     <h1 class="text-xl text-center text-gray-300 font-bold">Contact Me</h1>
-    <form class="flex flex-col gap-3" method="POST">
+    <form class="flex flex-col gap-2 md:gap-3" method="POST">
       <section>
         <label for="firstname">First Name:</label>
         <input required type="text" id="firstname" name="firstname" placeholder="Fist name" />
@@ -41,6 +41,7 @@
 </main>
 
 <style lang="css">
+  /* for inputs */
   form section {
     @apply flex flex-col gap-1;
   }
@@ -53,6 +54,7 @@
   :is(input, textarea):focus {
     @apply outline-blue-600;
   }
+  /* for submit button */
   form:invalid button[type="submit"] {
     cursor: not-allowed;
   }
