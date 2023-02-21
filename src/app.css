@@ -10,8 +10,8 @@
   @apply bg-gradient-to-tr from-black to-slate-900;
 }
 
-.container {
-  font-family: monospace;
+body > main {
   min-height: 100dvh;
+  font-family: monospace;
   @apply background flex flex-col justify-between text-base text-gray-300;
 }
